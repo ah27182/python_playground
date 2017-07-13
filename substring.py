@@ -32,5 +32,3 @@ def test(s):
 	for i in find_substring(s):
 		print i
 
-test('truth')
-
