@@ -15,7 +15,6 @@ def find_substring(substring):
 	check = True
 
 	for i in chr_indices[substring[0]]:
-		# print i
 		rest = enumerate(substring)
 		rest.next()
 
