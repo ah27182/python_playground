@@ -1,7 +1,7 @@
 from sets import Set
 
 # Function that removes an input of indices from an array
-# ex. popper([0,1,2,3,4], [1,0,2]) will remove el
+# ex. popper([0,1,2,3,4], [1,0,2]) will remove elements of index 1,0,2 from [0,1,2,3,4]
 
 def popper(arr, indicesToRemove):
 	s = Set()
